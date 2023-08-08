@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Jacques+Francois&family=Jost:wght@200;300;400;500;600&display=swap");
+
+:root {
+  --blue: #0083b0;
+  --white: #ffffff;
+  --offWhite: #eeebe4;
+  --blueWhite: #e0e0e2;
+  --black: #000000;
+  --orange: #e2a259;
+  --pink: #ff4d8b;
+  --adminOffWhite: #f3f3f5;
+  --adminBlueWhite: #ededf0;
+  --adminOrange: #b17026;
+  --workSans: "Work Sans", sans-serif;
+  --kepler: "kepler-std", serif;
+  --keplerDisplay: "kepler-std-extended-display", serif;
+  --contraltoSmall: "contralto-small", serif;
+  --contraltoBig: "contralto-big", serif;
+  --rubik: "Rubik", sans-serif;
+}
+
+html {
+  display: flex;
+  //changed from 100vw
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: var(--offWhite);
+  scroll-behavior: smooth;
+  scroll-margin-top: 100px;
+  // @include TheBestBackgroundInTheHistoryOfBackgrounds();
+}
+
+* {
+  //display: flex;
+  flex-direction: column;
+  position: relative;
+  line-height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: flex;
+  flex-basis: 1px;
+  flex-grow: 1;
+  flex-direction: column;
+  position: relative;
+  margin: 0px;
+  color: var(--black);
+  font-family: var(--workSans);
+}
+
+// head {
+//     display: none;
+// }
+
+#root,
+main {
+  display: flex;
+  // flex-basis: 1px;
+  // flex-grow: 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--contraltoSmall);
+}
+
+button,
+input,
+select,
+option {
+  border: none;
+  outline: none;
+  background: none;
+  -webkit-appearance: none;
+  min-width: 1px;
+  font-family: var(--workSans);
+}
+
+.Contain {
+  width: calc(100% - 4em);
+  max-width: 1600px;
+  align-self: center;
+}

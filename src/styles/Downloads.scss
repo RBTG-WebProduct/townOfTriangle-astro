@@ -1,0 +1,50 @@
+
+@import "./components/Header.scss";
+@import "./components/Footer.scss";
+
+main {
+
+  padding: 2em;
+
+  h2 {
+    text-align: center;
+  }
+
+  .download-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 3em;
+    gap: 2em;
+    opacity: 0;
+    transition: 2s;
+
+
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5em;
+    }
+
+    a {
+      flex: 1;
+      transition: 500ms;
+      text-decoration: none;
+
+      img {
+        width: 200px;
+        height: 200px;
+      }
+
+      &:hover {
+        transform: scale(1.1);
+        color:red
+      }
+    }
+  }
+
+  .show {
+    opacity: 1;
+  }
+}

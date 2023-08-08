@@ -1,0 +1,50 @@
+footer {
+  background: var(--blue);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: white;
+  align-items: center;
+  padding: 2em;
+  flex-wrap: wrap;
+  gap: 4em;
+
+  @media (max-width: 800px) {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .logo-contianer {
+    display: flex;
+    gap: 0.5em;
+    flex-direction: column;
+  }
+
+  .map-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3em;
+    // padding-left: 3em;
+    flex-wrap: wrap;
+
+    @media (max-width: 800px) {
+      justify-content: center;
+    }
+
+    .icon {
+      transition: all 0.3s;
+      border-radius: 20px;
+      min-width: 4em;
+
+      &:hover {
+        transform: scale(1.1);
+        box-shadow: var(--blue) 0px 0px 0px 2px inset,
+          rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px,
+          rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px,
+          rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px,
+          rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+      }
+    }
+  }
+}

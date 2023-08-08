@@ -1,0 +1,16 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header"
+import Footer from "../components/Footer"
+import Downloads from "../components/Downloads";
+import "../styles/globals.scss"
+import "../styles/Downloads.scss"
+
+
+---
+
+<Layout title="Town Of Triangle Downloads">
+    <Header client:load/>
+    <Downloads client:load/>
+    <Footer/>
+</Layout>

@@ -1,0 +1,133 @@
+.top {
+  background: var(--blue);
+  padding: 3em;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  align-items: center;
+
+  .svg-container {
+    opacity: 0;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    z-index: 9999;
+
+    @media (max-width: 800px) {
+      opacity: 1;
+      pointer-events: all;
+    }
+  }
+
+  .rect-1,
+  .rect-2,
+  .rect-3 {
+    fill: white;
+    transition: all 0.3s ease;
+  }
+
+  .rect-1.x,
+  .rect-2.x {
+    stroke: black; /* Set the border color */
+    stroke-width: 2px; /* Set the border width */
+    transform: rotate(45deg);
+  }
+
+  .rect-2.x {
+    opacity: 0;
+  }
+
+  .rect-3.x {
+    transform: rotate(-45deg) translate(-54px, -10px);
+  }
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  padding: 1em;
+  background: var(--offWhite);
+  font-size: 1.5em;
+
+  a {
+    text-decoration: none;
+    color: var(--black);
+    padding: 1em;
+    // font-family: "Jacques Francois";
+    font-family: "Jost";
+    font-weight: 800;
+    transition: all 0.3s;
+
+    &:hover {
+      transform: scale(1.1);
+      text-shadow: 4px 4px 6px rgba(66, 68, 90, 1);
+    }
+  }
+}
+
+.hero {
+  background-image: url("../../assets/nature.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 40vh; /* Adjust the height as needed */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff; /* Set the text color */
+  text-align: center;
+}
+
+.mobileNav {
+  display: flex;
+  background-color: var(--blue);
+  position: fixed;
+  font-size: 1.5em;
+  left: 0;
+  top: 0;
+  height: 200vh;
+  width: 100%;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+  gap: 1em;
+  z-index: 100;
+  flex-wrap: wrap;
+  //transform: translateX(100%);
+  transition: opacity 0.25s ease-in-out;
+  opacity: 0;
+  pointer-events: none;
+
+  a {
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 0.5em;
+    margin-top: 1em;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  &.activated {
+    pointer-events: all;
+    opacity: 1;
+  }
+}
+
+@media (max-width: 800px) {
+  nav {
+    display: none;
+  }
+}

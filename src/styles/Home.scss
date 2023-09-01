@@ -12,7 +12,11 @@ $ids: "#Contact", "#home", "#Town-Meetings", "#additional";
 main {
   font-family: "Jost";
   font-size: 1.2em;
-  font-weight: 500;
+  font-weight: 300;
+  
+  li{
+    list-style-type: none;
+  }
 
   @media (max-width: 400) {
     font-size: 0.8em;
@@ -137,31 +141,35 @@ main {
     }
   }
 
+
   .court-contact {
-    background: var(--blue);
-    color: white;
+    background: var(--offWhite);
+    color: black;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 3em;
+    padding-top: 3em;
+    padding-bottom: 3em;
     word-wrap: break-word;
+
 
     li {
       padding: 0.5em;
     }
 
-    // ul{
-    //     width: 50%;
-    // }
 
     .title {
       text-align: center;
       margin-bottom: 4em;
       opacity: 0;
       transition: 2s;
+
+      > *{
+        padding: .5em;
+      }
     }
 
-    .show {
+    .show-cort {
       opacity: 1;
     }
 
@@ -170,7 +178,8 @@ main {
       flex-direction: row;
       justify-content: space-evenly;
       flex-wrap: wrap;
-      gap: 3em;
+      // gap: 3em;
+      width: 100%;
 
       .supervisor {
         display: flex;
@@ -181,15 +190,6 @@ main {
         transition: 1.3s;
       }
 
-      .clerk {
-        display: flex;
-        gap: 1em;
-        max-width: 95%;
-        opacity: 0;
-        transform: translateX(400px);
-        transition: 1.3s;
-      }
-
       .slide {
         opacity: 1;
         transform: translateX(0);
@@ -197,26 +197,64 @@ main {
     }
   }
   .section-4 {
-    padding: 2em;
-    color: black;
-    background-color: var(--offWhite);
-    display: flex;
-    flex-direction: row;
-    flex-grow: 1;
-    justify-content: space-evenly;
-    margin: 3em;
-    flex-wrap: wrap;
-    gap: 3em;
+
+    text-align: center;
+    padding-top:2em;
+    color: white;
+    background-color: var(--blue);
+
+  .info-container{
+    padding-top: 3em;
+    padding-bottom: 2em;
+    color: white;
+    background-color: var(--blue);
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    justify-items: center;
+    align-items: center;
     word-wrap: break-word;
+    box-sizing: border-box; 
+    overflow: hidden;
+    
     
     @media (max-width: 1000px) {
-      padding: 1em;
-    }
+    grid-template: repeat(4, minmax(auto, 1fr)) / 1fr;
+
+  }
+    
+    @media (max-width: 600px) {
+    font-size: small;
+  }
 
     div {
       display: flex;
       gap: 1em;
+      justify-content: center; 
+      align-items: center;     
       max-width: 95%;
+      text-align: center;
+      padding: 2em;
+
+      a{
+        color: white;
+        transition: color 200ms;
+
+        &:hover{
+          color: blue;
+        }
+      }
+      
+      ul{
+        list-style-type: none;
+      }
+
+    }
+
+
+    .clerk {
+      opacity: 0;
+      transform: translateX(400px);
+      transition: 1.3s;
     }
 
     .building {
@@ -231,6 +269,12 @@ main {
       transition: 1.3s;
     }
 
+    .Highway {
+      opacity: 0;
+      transform: translateX(-400px);
+      transition: 1.2s;
+    }
+
     .slide {
       opacity: 1;
       transform: translateX(0);
@@ -240,11 +284,13 @@ main {
       padding: 0.5em;
     }
   }
+}
 
   .section-5 {
+    text-align: center;
     padding: 3em;
-    color: white;
-    background-color: var(--blue);
+    color: black;
+    background-color: var(--offWhite);
     display: flex;
     flex-direction: row;
     flex-grow: 1;
@@ -260,23 +306,27 @@ main {
       margin-right: 2em;
     }
 
-    .assessor {
+    .Assessor {
       opacity: 0;
-      transform: translateX(-50px);
-      transition: 0.9s;
+      transform: translateX(-400px);
+      transition: 1.5s;
     }
 
-    .Highway {
-      opacity: 0;
-      transform: translateX(-50px);
-      transition: 1.2s;
-    }
 
     .dog-patrol {
       opacity: 0;
-      transform: translateX(-50px);
+      transform: translateX(-400px);
       transition: 1.5s;
     }
+    
+    
+    .supervisor{
+      opacity: 0;
+      transform: translateX(-400px);
+      transition: 1.5s;
+    }
+
+
 
     .slide {
       opacity: 1;
@@ -289,16 +339,15 @@ main {
   }
   .additional-info {
     padding: 2em;
-    color: black;
-    background-color: var(--offWhite);
+    color: white;
+    background-color: var(--blue);
     display: flex;
     flex-direction: column;
     flex-grow: 1;
     justify-content: center;
-    margin: 3em;
     flex-wrap: wrap;
     gap: 3em;
-    opacity: 0;
+    color: var(--blue);
 
     @media (max-width: 1000px) {
       padding: 1em;
@@ -306,7 +355,7 @@ main {
 
     align-items: center;
 
-    transition: 700ms;
+    transition: 1.5s;
 
     h4 {
       text-align: center;
@@ -314,6 +363,6 @@ main {
   }
 
   .show {
-    opacity: 1;
+    color: white;
   }
 }

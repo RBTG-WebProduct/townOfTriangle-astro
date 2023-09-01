@@ -16,12 +16,10 @@ function Contacts2() {
         <li>E Mail: <a href="mailto:assessor@townoftriangle.org"></a>assessor@townoftriangle.org</li>
       </ul>
     </div>
-    <div className={`Highway ${visible ? 'slide' : undefined}`}>
-      <h4><ul>Highway Department: 5470 State Route 26</ul></h4>
+    <div className={`supervisor ${visible ? 'slide' : undefined}`}>
+      <h4><ul>Supervisor: Charles Manasse</ul></h4>
       <ul>
-        <li>phone : 607-692-3270</li>
-        <li>fax : 607-692-3691</li>
-        <li>E mail: <a href='mailto:trianglehighwaydept@frontier.com'>trianglehighwaydept@frontier.com</a></li>
+        <li>Phone: 607-692-4332 ext 1</li>
       </ul>
     </div>
     <div className={`dog-patrol ${visible ? 'slide' : undefined}`}>

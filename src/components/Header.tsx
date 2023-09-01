@@ -35,7 +35,7 @@ function Header() {
           <a onClick={() => setNavOpen(false)} href='/#Town-Meetings'>Town Meetings</a>
           <a onClick={() => setNavOpen(false)} href='/#Contact'>Contact Information</a>
           <a onClick={() => setNavOpen(false)} href='/#additional'>Additional Information</a>
-          <a onClick={() => setNavOpen(false)} href='/download'>Download Forms</a>
+          <a onClick={() => setNavOpen(false)} href='/download/'>Download Forms</a>
         </nav>
         <div className='hero' style={{ transform: `translateY(${offsetY * 0.5}px)` }}>
           {/* <img src='/assets/nature.jpg'/> */}
@@ -45,7 +45,7 @@ function Header() {
           <a onClick={() => setNavOpen(false)} href='/#Town-Meetings'>Town Meetings</a>
           <a onClick={() => setNavOpen(false)} href='/#Contact'>Contact Information</a>
           <a onClick={() => setNavOpen(false)} href='/#additional'>Additional Information</a>
-          <a onClick={() => setNavOpen(false)} href='/download'>Download Forms</a>
+          <a onClick={() => setNavOpen(false)} href='/download/'>Download Forms</a>
         </div>
     </>
   )

@@ -3,14 +3,17 @@
 @import "./components/Footer.scss";
 
 main {
-
+  z-index: 2;
   padding: 2em;
 
   h2 {
     text-align: center;
+    background-color: var(--offWhite);
+    width: 100%;
   }
 
   .download-links {
+    z-index: 3;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

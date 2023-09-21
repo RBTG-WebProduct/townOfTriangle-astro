@@ -2,7 +2,7 @@
 @import "./components/Footer.scss";
 
 $ids: "#Contact", "#home", "#Town-Meetings", "#additional";
-
+// this makes it so the nav bar takes you to the top of a section.
 @each $id in $ids {
   #{$id} {
     scroll-margin-top: 10em;
@@ -97,6 +97,7 @@ main {
       opacity: 0;
       transform: translatex(-400px);
       transition: 1.5s;
+      font-weight: 500;
 
       h3 {
         text-decoration: underline;
@@ -224,6 +225,7 @@ main {
     
     @media (max-width: 600px) {
     font-size: small;
+    max-width: 95%;
   }
 
     div {
@@ -348,6 +350,10 @@ main {
     flex-wrap: wrap;
     gap: 3em;
     color: var(--blue);
+    
+    p{
+      line-height: 1.5;
+    }
 
     @media (max-width: 1000px) {
       padding: 1em;

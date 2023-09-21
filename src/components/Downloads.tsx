@@ -10,8 +10,8 @@ function Downloads() {
   return (
     <>
         <main ref={ref}>
-            <h2>Select Your file For Download</h2>
             <div className={`download-links ${visible ? 'show' : undefined}`}>
+                {/* <h2 >Select Your file For Download</h2> */}
                 <a href='/assets/FOIL.pdf' download>
                     <div>
                         <img src='/assets/flag.jpg' alt='flag'/>

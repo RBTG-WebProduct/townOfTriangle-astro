@@ -23,18 +23,19 @@ function Schedule() {
         <li>May 11</li>
         <li>June 8</li>
         <li>July 13</li>
-        <li>August 10</li>
-        <li>September 14</li>
+        <a href='/assets/meetingMinutes/aug2023.pdf' download><li>August 10</li></a>
+        <a href='/assets/meetingMinutes/sep2023rd.pdf' download><li>September 14</li></a>
         <li>October 12</li>
         <li>November 9</li>
         <li>December 14</li>
         </ul>
+        <p style={{marginTop:"2em"}}>Click a date to download meeting minutes.</p>
       </div>
-      <div className={`links ${visible ? 'slide' : undefined}`}>
+      {/* <div className={`links ${visible ? 'slide' : undefined}`}>
         <a href='/'>See Last Meetings Minutes</a>
         <a href='/'>See Town Budget 2023</a>
         <a href='/'>See All Meeting Minutes</a>
-      </div>
+      </div> */}
     </div>
   )
 }

@@ -77,7 +77,7 @@ function Contacts1() {
             <ul>Highway Department: 5470 State Route 26</ul>
           </h4>
           <h4>
-            <ul>Highway Super intendent: Danial S Mcgowan</ul>
+            <ul>Highway Super intendent: Danial S McGowan</ul>
           </h4>
           <ul>
             <li>phone : 607-692-3270</li>

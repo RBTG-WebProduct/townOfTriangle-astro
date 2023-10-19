@@ -66,8 +66,8 @@ function Contacts1() {
             </li>
             <li>
               Credit card payments :
-              <a href=" https://webtownhall.com/triangleny/TaxCollector.asp">
-                https://webtownhall.com/triangleny/TaxCollector.asp
+              <a href=" https://webtownhall.com/triangleny/TaxCollector.aspx">
+                https://webtownhall.com/triangleny/TaxCollector.aspx
               </a>
             </li>
           </ul>

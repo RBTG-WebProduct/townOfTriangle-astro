@@ -68,6 +68,37 @@ main {
       }
     }
 
+    .announcment-container{
+
+      opacity: 0;
+      transition: 2s;
+
+    h4{
+      text-align: center;
+      font-size: 2em;
+      // text-decoration: underline;
+      padding-bottom: 1em;
+      padding-top: 1em;
+    }
+
+    .announcment{
+      padding-left: 11em;
+      padding-right: 11em;
+      font-weight: 300;
+      font-size: 1.5em;
+      padding-bottom: 1em;
+      text-align: center;
+      @media (max-width: 1200px) {
+        padding-left: 5em;
+        padding-right: 5em;
+      }
+      @media (max-width: 650px) {
+        padding-left: 2em;
+        padding-right: 2em;
+      }
+    }
+  }
+
     .show {
       opacity: 1;
     }

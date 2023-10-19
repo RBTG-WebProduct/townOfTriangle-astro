@@ -1,5 +1,6 @@
 import React from 'react'
 import useElementVisibility from '../utils/useElementVisibility'
+import Announcement from './Announcement';
 
 function Welcome() {
 
@@ -20,6 +21,7 @@ function Welcome() {
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
           </div>
+            <Announcement visable={visible}/>
         </div>
   )
 }

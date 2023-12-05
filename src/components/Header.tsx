@@ -5,7 +5,7 @@ import React, {useState, useEffect} from 'react'
 function Header() {
 
     const [navOpen, setNavOpen] = useState(false);
-    console.log("testing")
+
 
     const [offsetY, setOffsetY] = useState(0);
 

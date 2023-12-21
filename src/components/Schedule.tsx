@@ -27,7 +27,7 @@ function Schedule() {
         <a href='/assets/meetingMinutes/sep2023rd.pdf' download><li>September 14</li></a>
         <a href='/assets/meetingMinutes/october-23-tot.pdf' download><li>October 12</li></a>
         <a href='/assets/meetingMinutes/11.9.23.pdf'><li>November 9</li></a>
-        <a  href='/assets/meetingMinutes/AgendaDecember.pdf'><li>December 14</li></a>
+        <a  href='/assets/meetingMinutes/12.14.2023.pdf'><li>December 14</li></a>
         </ul>
         <p style={{marginTop:"2em"}}>Click a date to download meeting minutes.</p>
       </div>

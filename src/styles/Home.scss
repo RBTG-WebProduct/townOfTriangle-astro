@@ -70,8 +70,11 @@ main {
 
     .announcment-container{
 
+      // background-color: aliceblue;
       opacity: 0;
       transition: 2s;
+      display: flex;
+      padding-top: 1em;
 
     h4{
       text-align: center;
@@ -86,7 +89,7 @@ main {
       padding-right: 11em;
       font-weight: 300;
       font-size: 1.5em;
-      padding-bottom: 1em;
+      padding-bottom: 2em;
       text-align: center;
       @media (max-width: 1200px) {
         padding-left: 5em;

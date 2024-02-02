@@ -25,7 +25,7 @@ function Court() {
                 <li>Phone # 607-692-4332 ext 7,</li>
                 <li> fax # 607-692-4910</li>
                 <li>Email: trianglecourt@nycourts.gov</li>
-                <li>To enter a plea: <a href='Trianglecourt.org'>Trianglecourt.org</a> (follow instructions)</li>
+                <li>To enter a plea: <a href='https://trianglecourt.org/'target='_blank'>Trianglecourt.org</a> (follow instructions)</li>
                 </ul>
               </div>
             </div>

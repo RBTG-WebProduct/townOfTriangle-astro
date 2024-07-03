@@ -32,7 +32,7 @@ function Contacts1() {
         </div>
         <div className={`building ${visible ? "slide" : undefined}`}>
           <h4>
-            <ul>Building Inspector: Mark See II</ul>
+            <ul>Building Inspector /Code Enforcement Officer : Juliette Sinclair</ul>
           </h4>
           <ul>
             <li>By appointment only</li>
@@ -77,7 +77,7 @@ function Contacts1() {
             <ul>Highway Department: 5470 State Route 26</ul>
           </h4>
           <h4>
-            <ul>Highway Super intendent: Danial S McGowan</ul>
+            <ul>Highway Super intendent / Highway Supervisor : Danial S McGowan</ul>
           </h4>
           <ul>
             <li>phone : 607-692-3270</li>

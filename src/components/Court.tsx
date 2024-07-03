@@ -15,7 +15,7 @@ function Court() {
             <div className='info'>
               <div className={`supervisor ${visible ? 'slide' : undefined}`}>
                 <div>
-                  <p>Court : Judge Orzel, Clerk Kalleen Benjamin</p>
+                  <p>Court :Michelle A. Morrison</p>
                 </div>
                 <ul>
                 <li>Office hours: Monday 11AM-5PM,</li> 

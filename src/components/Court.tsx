@@ -14,17 +14,14 @@ function Court() {
             </div>
             <div className='info'>
               <div className={`supervisor ${visible ? 'slide' : undefined}`}>
-                <div>
-                  <p>Court :Michelle A. Morrison</p>
-                </div>
                 <ul>
-                <li>Office hours: Monday 11AM-5PM,</li> 
-                <li>Tuesday 9AM-2PM, </li>
-                <li>Wednesday 11AM-5PM </li>
-                <li>Thursday and Friday 9AM-2PM</li>
+                <li>Presiding Justice: Honorable Michele Morrison</li>
+                <li>Office hours:</li> 
+                <li>Wednesday 4pm-6PM </li>
+                <li>Friday 9AM-12PM</li>
                 <li>Phone # 607-692-4332 ext 7,</li>
                 <li> fax # 607-692-4910</li>
-                <li>Email: trianglecourt@nycourts.gov</li>
+                <li>Email: TriangleTownCourt@nycourts.gov</li>
                 <li>To enter a plea: <a href='https://trianglecourt.org/'target='_blank'>Trianglecourt.org</a> (follow instructions)</li>
                 </ul>
               </div>

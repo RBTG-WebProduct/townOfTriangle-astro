@@ -41,12 +41,12 @@ function Schedule() {
         </aside>
         <ul>
         <a href='/assets/meetingMinutes/jan-24.pdf' download><li>January 11</li></a>
-        <li>February 8</li>
-        <li>March 14</li>
-        <li>April 11</li>
-        <li>May 9</li>
-        <li>June 13</li>
-        <li>July 11</li>
+        <a href='/assets/meetingMinutes/02.08.2024.pdf' download><li>February 8</li></a>
+        <a href='/assets/meetingMinutes/03.14.2024.pdf' download><li>March 14</li></a>
+        <a href='/assets/meetingMinutes/4.11.2024.pdf' download><li>April 11</li></a>
+        <a href='/assets/meetingMinutes/5.9.2024.pdf' download><li>May 9</li></a>
+        <a href='/assets/meetingMinutes/6.13.2024.pdf' download><li>June 13</li></a>
+        <a href='/assets/meetingMinutes/7.11.2024.pdf' download><li>July 11</li></a>
         <li>August 8</li>
         <li>September 12</li>
         <li>October 10</li>

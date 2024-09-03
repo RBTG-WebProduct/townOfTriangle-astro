@@ -42,7 +42,7 @@ function Contacts1() {
                 Buildinginspector@townoftriangle.org
               </a>
             </li>
-            <li>Forms: (building permit application)</li>
+            <li>Forms: (<a href='/assets/permit.pdf' download>building permit application</a>)</li>
             <li>
               Credit card payments:{" "}
               <a href="https://webtownhall.com/triangleny/TownClerk.aspx">
@@ -77,14 +77,14 @@ function Contacts1() {
             <ul>Highway Department: 5470 State Route 26</ul>
           </h4>
           <h4>
-            <ul>Highway Super intendent / Highway Supervisor : Danial S McGowan</ul>
+            <ul>Highway Superintendent / Highway Supervisor : Daniel S McGowan</ul>
           </h4>
           <ul>
             <li>phone : 607-692-3270</li>
             <li>fax : 607-692-3691</li>
             <li>
               E mail:{" "}
-              <a href="mailto:trianglehighwaydept@frontier.com">
+              <a href="mailto:trianglehighwaydept@townoftriangle.org">
                 trianglehighwaydept@frontier.com
               </a>
             </li>

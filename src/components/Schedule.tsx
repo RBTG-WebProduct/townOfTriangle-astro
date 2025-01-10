@@ -55,6 +55,30 @@ function Schedule() {
         </ul>
         <p style={{marginTop:"2em"}}>Click a date to download meeting minutes.</p>
       </div>
+      <div className={`schedule ${visible ? 'slide' : undefined}`}>
+        <h3>
+          Schedule of Town of Triangle Board Meetings for 2025
+        </h3>
+        <aside>
+          <p>7 PM at the Town of Triangle Offices</p>
+          <p>2612 Liberty Street Whitney Point</p>
+        </aside>
+        <ul>
+        <li>January 9</li>
+        <li>February 13</li>
+        <li>March 13</li>
+        <li>April 10</li>
+        <li>May 8</li>
+        <li>June 12</li>
+        <li>July 10</li>
+        <li>August 14</li>
+        <li>September 11</li>
+        <li>October 9</li>
+        <li>November 13</li>
+        <li>December 11</li>
+        </ul>
+        <p style={{marginTop:"2em"}}>Click a date to download meeting minutes.</p>
+      </div>
       {/* <div className={`links ${visible ? 'slide' : undefined}`}>
         <a href='/'>See Last Meetings Minutes</a>
         <a href='/'>See Town Budget 2023</a>

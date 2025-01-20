@@ -17,7 +17,7 @@ function Contacts2() {
       </ul>
     </div>
     <div className={`supervisor ${visible ? 'slide' : undefined}`}>
-      <h4><ul>Supervisor: Jeffery Black</ul></h4>
+      <h4><ul>Supervisor: Jeffrey Black</ul></h4>
       <ul>
         <li>Phone: 607-692-4332 ext 1</li>
       </ul>

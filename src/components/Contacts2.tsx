@@ -22,6 +22,12 @@ function Contacts2() {
         <li>Phone: 607-692-4332 ext 1</li>
       </ul>
     </div>
+    <div className={`supervisor ${visible ? 'slide' : undefined}`}>
+      <h4><ul>Historian: Donna Baker</ul></h4>
+      <ul>
+      <li>email: <a href='mailto:historian@townoftriangle.org'>historian@townoftriangle.org</a></li>
+      </ul>
+    </div>
     <div className={`dog-patrol ${visible ? 'slide' : undefined}`}>
       <h4><ul>Dog Control: Tammy Hamlin</ul></h4>
       <ul>

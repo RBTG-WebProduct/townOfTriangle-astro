@@ -38,8 +38,8 @@ function Contacts1() {
             <li>By appointment only</li>
             <li>Cell phone: 607-422-6011</li>
             <li>
-              <a href="mailto:Buildinginspector@townoftriangle.org">
-                Buildinginspector@townoftriangle.org
+              <a href="mailto:trianglebuildinginspector@gmail.com">
+                trianglebuildinginspector@gmail.com
               </a>
             </li>
             <li>Forms: (<a href='/assets/permit.pdf' download>building permit application</a>)</li>

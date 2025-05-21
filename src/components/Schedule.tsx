@@ -47,11 +47,14 @@ function Schedule() {
         <a href='/assets/meetingMinutes/5.9.2024.pdf' download><li>May 9</li></a>
         <a href='/assets/meetingMinutes/6.13.2024.pdf' download><li>June 13</li></a>
         <a href='/assets/meetingMinutes/7.11.2024.pdf' download><li>July 11</li></a>
-        <li>August 8</li>
-        <li>September 12</li>
-        <li>October 10</li>
-        <li>November 14</li>
-        <li>December 12</li>
+        <a href='/assets/2024/8.8.2024.pdf' download><li>August 8</li></a>
+        <a href='/assets/2024/9.12.2024.pdf' download><li>September 12</li></a>
+        <a href='/assets/2024/10.10.2024.pdf' download><li>October 10</li></a>
+        <a href='/assets/2024/10.17.2024.pdf' download><li>October 17</li></a>
+        <a href='/assets/2024/10.24.2024.pdf' download><li>October 24</li></a>
+        <a href='/assets/2024/11.14.2024.pdf' download><li>November 14</li></a>
+        <a href='/assets/2024/12.12.2024.pdf' download><li>December 12</li></a>
+        <a href='/assets/2024/12.30.2024.pdf' download><li>December 30</li></a>
         </ul>
         <p style={{marginTop:"2em"}}>Click a date to download meeting minutes.</p>
       </div>
@@ -64,9 +67,10 @@ function Schedule() {
           <p>2612 Liberty Street Whitney Point</p>
         </aside>
         <ul>
-        <li>January 9</li>
-        <li>February 13</li>
-        <li>March 13</li>
+        <a href='/assets/2025/1-09-2025.pdf' download><li>January 9</li></a>
+        <a href='/assets/2025/2.13.2025.pdf' download><li>February 13</li></a>
+        <a href='/assets/2025/2.13.2025.pdf' download><li>March 13</li></a>
+        <a href='/assets/2025/3-20-2025.pdf' download><li>March 20</li></a>
         <li>April 10</li>
         <li>May 8</li>
         <li>June 12</li>

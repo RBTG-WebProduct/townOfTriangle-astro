@@ -6,7 +6,7 @@ const Announcement = ({ visable }: { visable: boolean }) => {
 					}`}
 			>
 				<h4>Announcements</h4>
-
+{/* 
 
 				<a className="announcment" style={{ fontWeight: "700" }} href="\assets\notices\Ambulance legal 2024.pdf" download>
 					Notice of Public Hearing
@@ -24,6 +24,9 @@ const Announcement = ({ visable }: { visable: boolean }) => {
 
 				<a className="announcment" style={{ fontWeight: "700" }} href="\assets\notices\Snow and Ice Policy .pdf.pdf" download>
 					Snow And Ice Policy
+				</a> */}
+				<a className="announcment" style={{ fontWeight: "700" }} href="\assets\downloads\Legal-for-BAR.doc" download>
+					Legal notice for the Board of Assessment Review (BAR)
 				</a>
 			</div>
 		</>

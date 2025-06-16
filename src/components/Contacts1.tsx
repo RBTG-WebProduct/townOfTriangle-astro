@@ -84,8 +84,8 @@ function Contacts1() {
             <li>fax : 607-692-3691</li>
             <li>
               E mail:{" "}
-              <a href="mailto:trianglehighwaydept@townoftriangle.org">
-                trianglehighwaydept@frontier.com
+              <a href="mailto:highway@townoftriangle.org">
+                highway@townoftriangle.org
               </a>
             </li>
           </ul>

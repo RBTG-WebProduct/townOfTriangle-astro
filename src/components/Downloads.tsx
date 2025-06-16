@@ -30,6 +30,12 @@ function Downloads() {
                         <p>Board Meeting Times</p>
                     </div>
                 </a> 
+                <a href='/assets/downloads/DOH-294-req-for-DC.pdf' download>
+                    <div>
+                        <img src='/assets/form.jpg' alt='clock'/>
+                        <p>Request For Death Certificate</p>
+                    </div>
+                </a> 
             </div>
         </main>
     </>

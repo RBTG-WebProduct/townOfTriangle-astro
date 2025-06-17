@@ -9,14 +9,18 @@ main {
 
 
   .download-links {
-    display: flex;
-    flex-direction: row;
+    // display: flex;
+    // flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 250px);
     flex-wrap: wrap;
     padding: 3em;
     // margin: 2em;
     gap: 2em;
     opacity: 0;
     transition: 2s;
+    // background-color: red;
 
     h2 {
       text-align: center;
@@ -41,6 +45,7 @@ main {
       img {
         width: 200px;
         height: 200px;
+        padding-bottom: 10px;
       }
 
       &:hover {

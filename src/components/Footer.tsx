@@ -11,9 +11,9 @@ function Footer() {
         <p>phone : 607 - 692 - 4332</p>
         </div>
         <div className='map-container'>
-        <div className='icon'>
+        {/* <div className='icon'>
             <FontAwesomeIcon icon={faFacebook} size='4x'/>
-        </div>
+        </div> */}
         {/* <div className='icon'>
           <FontAwesomeIcon icon={faInstagram} size='4x'/>
         </div> */}

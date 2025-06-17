@@ -33,7 +33,25 @@ function Downloads() {
                 <a href='/assets/downloads/DOH-294-req-for-DC.pdf' download>
                     <div>
                         <img src='/assets/form.jpg' alt='clock'/>
-                        <p>Request For Death Certificate</p>
+                        <p>Request For Copy Of Death Certificate</p>
+                    </div>
+                </a> 
+                <a href='/assets/downloads/DOH-296-birth.pdf' download>
+                    <div>
+                        <img src='/assets/form.jpg' alt='clock'/>
+                        <p>Request For Copy Of Birth Certificate</p>
+                    </div>
+                </a> 
+                <a href='/assets/downloads/DOH-301-marriage.pdf' download>
+                    <div>
+                        <img src='/assets/form.jpg' alt='clock'/>
+                        <p>Request For copy Of Marriage Certificate</p>
+                    </div>
+                </a> 
+                <a href='/assets/downloads/DOH-1562-gene.pdf' download>
+                    <div>
+                        <img src='/assets/form.jpg' alt='clock'/>
+                        <p>Request For Copy Of Gynecological Records</p>
                     </div>
                 </a> 
             </div>
